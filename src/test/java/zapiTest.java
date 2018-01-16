@@ -21,6 +21,7 @@ public class zapiTest {
 	public void test() throws Exception {
 		//String url = "https://jira.oraclecorp.com";
 		String url= "https://jira-uat.us.oracle.com";
+		url="http://www.sohu.com";
 //	    String userName = "oardc-omsp_sg@oracle.com";
 //	    String password = "!QAZ2wsx";
 		String userName = "jingzhou.wang@oracle.com";
@@ -33,7 +34,7 @@ public class zapiTest {
 
 		//TestCase tc=new TestCase("18507","summary","desc","1","27","jingzhou.wang@oracle.com");
 		//zapiTest.createTestCase(tc);
-		zapiTest.createTestStep("4886632");
+		//zapiTest.createTestStep("4886632");
 
 
 	}
